@@ -1,0 +1,49 @@
+body {
+  background-color: red;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+/* customise how the content of the page looks like*/
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 12px;
+  align-items:center;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background-color:wheat;
+}
+
+/* Customise the image on the page */
+.content img {
+  border-radius:12px;
+  width: 60%;
+  max-width: 300px; 
+  min-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+};
+
+/* customise the scan page paragraph */
+p {
+  display: inline ;
+}
+
+/* customise the attribution */
+.attribution {
+  margin-left: auto;
+  margin-right: auto;
+}
+
