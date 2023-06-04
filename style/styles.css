@@ -1,5 +1,5 @@
 body {
-  background-color: red;
+  background-color:aqua;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .attribution {
@@ -22,7 +22,7 @@ body {
   margin-right: auto;
   padding-top: 20px;
   padding-bottom: 30px;
-  background-color:wheat;
+  background-color:white;
 }
 
 /* Customise the image on the page */
