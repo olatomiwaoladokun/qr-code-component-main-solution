@@ -1,5 +1,5 @@
 body {
-  background-color:aqua;
+  background-color:rgb(209, 231, 231);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .attribution {
@@ -12,33 +12,37 @@ body {
 
 /* customise how the content of the page looks like*/
 .content {
-  display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
   border-radius: 12px;
   align-items:center;
-  width: 400px;
+  width: 340px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 20px;
-  padding-bottom: 30px;
+  /* Start Padding */
+  padding: 10px 10px;
+  /* Stop padding */
+  height: 10%;
   background-color:white;
+  text-align: center;
+  box-sizing: border-box;
+  margin-bottom: 20px;
 }
 
 /* Customise the image on the page */
 .content img {
   border-radius:12px;
-  width: 60%;
+  width: 55%;
   max-width: 300px; 
   min-width: 300px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
+  box-sizing: border-box;
 };
 
 /* customise the scan page paragraph */
 p {
-  display: inline ;
+  display: block ;
 }
 
 /* customise the attribution */
@@ -47,3 +51,27 @@ p {
   margin-right: auto;
 }
 
+/* .content footer{
+  display: block;
+}
+.content footer{
+  text-align: center;  
+  font-size: 12px;
+  font-weight:100;
+  display: inline-block;
+} */
+
+#minor {
+  display:block;
+  width: 250px;
+  font-size: small;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 200;
+}
+
+#major {
+  width: 200px;
+  height: 20px;
+}
