@@ -13,13 +13,12 @@ body {
 /* customise how the content of the page looks like*/
 .content {
   justify-content: center;
-  border-radius: 12px;
+  border-radius: 20px;
   width: 300px;
-  /* Start Padding */
+  /*StartPadding*/
   padding: 20px 10px;
   padding-bottom: 50px;
-  /* Stop padding */
-  height: 10%;
+  /*Stoppadding*/height: 10%;
   background-color:white;
   text-align: center;
   box-sizing: border-box;
